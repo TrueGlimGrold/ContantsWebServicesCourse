@@ -1,0 +1,19 @@
+{
+  "name": "contantswebservicescourse",
+  "version": "1.0.0",
+  "description": "My First Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueGlimGrold/ContantsWebServicesCourse.git"
+  },
+  "author": "Luke Bullock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrueGlimGrold/ContantsWebServicesCourse/issues"
+  },
+  "homepage": "https://github.com/TrueGlimGrold/ContantsWebServicesCourse#readme"
+}
