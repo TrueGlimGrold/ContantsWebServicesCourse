@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TrueGlimGrold/ContantsWebServicesCourse/issues"
   },
-  "homepage": "https://github.com/TrueGlimGrold/ContantsWebServicesCourse#readme"
+  "homepage": "https://github.com/TrueGlimGrold/ContantsWebServicesCourse#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
