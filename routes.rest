@@ -1,1 +1,27 @@
-GET https://project1-ry95.onrender.com/users
+### Get all 
+GET http://localhost:3000/users
+
+### Get john
+GET http://localhost:3000/users/662b2d5c97a0daa7760a5de4
+
+### Create user 
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+{
+    "email": "test@example.com",
+    "username": "test",
+    "name": "Test Test",
+    "ipaddress": "192.168.1.1"
+}
+
+
+### PUT user
+PUT http://localhost:3000/users/662b2d5c97a0daa7760a5de4 HTTP/1.1
+content-type: application/json 
+
+{
+    "email": "test@example.com",
+    "username": "test",
+    "name": "Test Test",
+    "ipaddress": "192.168.1.1"
+}
